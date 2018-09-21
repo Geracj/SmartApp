@@ -1,0 +1,67 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.gallery {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-top: 1px solid lightgrey;
+    box-shadow: 0 0 10px lightgrey;
+
+    .galleryContainer {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 100px;
+
+        .galleryTitle {
+            
+            h1 {
+                padding-top: 100px;
+                color: #636c6c;
+                font-size: 36px;
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+
+            p {
+                color: #bfc6c6;
+                font-size: 16px;
+                margin-bottom: 50px;
+            }
+        }
+
+        .gallerySlider {
+            width: 60%;
+            height: auto;
+            text-align: center;
+            margin: 0 auto;
+            
+
+            img {
+                margin: 0 auto;
+                margin-bottom: 25px;
+            }
+
+            p {
+                font-size: 14px;
+                color: #8c9494;
+                margin-bottom: 10px;
+            }
+
+            .slick-prev:before {
+                content: "<";
+                color: #8c9494;
+                font-size: 40px;
+              }
+              
+              .slick-next:before {
+                content: ">";
+                color: #8c9494;
+                font-size: 40px;
+              }
+        }
+    }
+}
+

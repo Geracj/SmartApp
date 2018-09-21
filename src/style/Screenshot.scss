@@ -1,0 +1,87 @@
+.screenshot {
+    width: 100%;
+    height: auto;
+    background-color: #f2f9fe;
+
+    .screenContainer {
+        width: 70%;
+        height: auto;
+        margin: 0 auto;
+        padding-top: 130px;
+        display: flex;
+        padding-bottom: 100px;
+
+
+        .screenText {
+            width: 100%;
+            
+            h1 {
+                font-size: 36px;
+                font-weight: bold;
+                color: #5dca88;
+                margin-bottom: 25px;
+            }
+
+            h5 {
+                font-size: 36px;
+                color: #a7afb0;
+                margin-top: 25px;
+                margin-bottom: 25px;
+            }
+
+            p {
+                font-size: 16px;
+                color: #8c9494;
+                margin-bottom: 35px;
+            }
+
+            button {
+                width: 60%;
+                height: 50px;
+                background-color: #f2f9fe;
+                border: 3px solid #aab2b5;
+                color: #636c6c;
+                border-radius: 30px;
+                text-transform: uppercase;
+                font-size: 21px;
+                font-weight: bold;
+                cursor: pointer;
+                transition: 0.3s ease-in-out;
+            }
+
+            button:hover {
+                background-color: #636c6c;
+                border: 3px solid #636c6c;
+                color: white;
+            }
+        }
+
+        .screenImg {
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
+
+@media screen and ( max-width: 800px ) {
+    .screenContainer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+
+        .screenText {
+            margin-top: -70px;
+
+            button {
+                margin-bottom: 50px;
+            }
+        }
+
+        .screenImg {
+            img {
+                height: 600px;
+            }
+        }
+    }
+} 

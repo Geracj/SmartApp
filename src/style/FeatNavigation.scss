@@ -1,0 +1,35 @@
+.featLink {
+    display: flex;
+    justify-content: center;
+
+    .featIcon {
+        margin-right: 5%;
+        font-size: 36px;
+    }
+    
+    .featDescr {
+        padding-top: 10px;
+    }
+
+}
+
+.featLink:hover {
+
+    border-right: 5px solid #5dca88;
+
+    .featDescr {
+        color: #636c6c;
+    }
+
+    .featIcon {
+        color: #5dca88;
+
+    }
+}
+
+@media screen and ( max-width: 1150px ) {
+    p {
+        font-size: 12px;
+    }
+}
+
